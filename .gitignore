@@ -183,12 +183,8 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 # UE4
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
-RiftDefense/Intermediate/CachedAssetRegistry.bin
-RiftDefense/Saved/Autosaves/PackageRestoreData.json
-RiftDefense/Saved/AutoScreenshot.png
-RiftDefense/Saved/Config/Windows/EditorUserSettings.ini
-RiftDefense/Saved/Config/Windows/EditorLayout.ini
+RiftDefense/Binaries
+RiftDefense/DerivedDataCache
+RiftDefense/Intermediate
+RiftDefense/Saved
+!RiftDefense/Saved/Config/CleanSourceConfigs/**
